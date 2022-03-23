@@ -97,7 +97,10 @@ function createButtons() {
 
     let buttonReset = document.createElement('sl-button');
     buttonReset.dataset.action = ACTION_RESET;
-    buttonReset.innerText = 'X';
+    // buttonReset.innerText = 'X';
+    let buttonResetIcon = document.createElement('sl-icon');
+    buttonResetIcon.setAttribute('name', 'x-lg');
+    buttonReset.appendChild(buttonResetIcon);
     buttons.push(buttonReset);
 
     let button10 = document.createElement('sl-button');
@@ -108,7 +111,10 @@ function createButtons() {
 
     let buttonDelete = document.createElement('sl-button');
     buttonDelete.dataset.action = ACTION_DELETE;
-    buttonDelete.innerText = '<-';
+    // buttonDelete.innerText = '<-';
+    let buttonDeleteIcon = document.createElement('sl-icon');
+    buttonDeleteIcon.setAttribute('name', 'chevron-left');
+    buttonDelete.appendChild(buttonDeleteIcon);
     buttons.push(buttonDelete);
 
     buttonsDiv.replaceChildren(...buttons)

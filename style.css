@@ -1,6 +1,7 @@
 #buttons > sl-button{
     margin: var(--sl-spacing-3x-small);
     min-width: var(--sl-spacing-4x-large);
+    touch-action: manipulation;
 }
 
 #main {
