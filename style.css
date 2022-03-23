@@ -1,0 +1,21 @@
+#buttons > sl-button{
+    margin: var(--sl-spacing-3x-small);
+    min-width: var(--sl-spacing-4x-large);
+}
+
+#main {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#buttons {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.copyright {
+    text-align: center;
+    color: #bbb;
+    cursor: pointer;
+}
